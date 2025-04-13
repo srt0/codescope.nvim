@@ -2,7 +2,7 @@ local M = {}
 
 M.colors = {
   bg = "#0A0A0A",
-  fg = "#E8ECF4",
+  fg = "#D6DDEB",
   blue = "#7AA2D1",
   purple = "#B4A4F2",
   yellow = "#B89B4C",
