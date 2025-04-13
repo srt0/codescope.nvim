@@ -32,6 +32,12 @@ M.groups = {
   GitSignsAdd = { fg = palette.green },
   GitSignsChange = { fg = palette.yellow },
   GitSignsDelete = { fg = palette.red },
+
+  -- Statusline
+  StatusLine = { fg = palette.fg, bg = palette.bg_alt }, -- Active window
+  StatusLineNC = { fg = palette.gray, bg = palette.bg_alt }, -- Inactive windows
+  TabLine = { fg = palette.gray, bg = palette.bg }, -- Tabline (inactive)
+  TabLineSel = { fg = palette.blue, bg = palette.bg }, -- Active tab
 }
 
 return M
