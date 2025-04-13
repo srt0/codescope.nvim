@@ -23,6 +23,9 @@ M.setup = function(opts)
     end
     vim.api.nvim_set_hl(0, group, settings)
   end
+
+  -- Critical fix: Register the colorscheme
+  vim.g.colors_name = "everblush"
 end
 
 return M
