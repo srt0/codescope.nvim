@@ -1,8 +1,8 @@
-# Everblush.nvim 🌌
+# codescope.nvim 🌌
 
 A soothing dark Neovim colorscheme for long coding sessions
 
-![Everblush Screenshot](./screenshot.png)
+![codescope Screenshot](./screenshot.png)
 
 ## Features
 
@@ -15,14 +15,14 @@ A soothing dark Neovim colorscheme for long coding sessions
 
 ```lua
 {
-  "srt0/everblush.nvim",
+  "srt0/codescope.nvim",
   lazy = false,
   priority = 1000,
   config = function()
-    require("everblush").setup({
+    require("codescope").setup({
       transparent = false, -- Set to true for transparency
     })
-    vim.cmd.colorscheme("everblush")
+    vim.cmd.colorscheme("codescope")
   end,
 }
 ```
@@ -35,7 +35,7 @@ A soothing dark Neovim colorscheme for long coding sessions
 ## 🔧 Troubleshooting
 If colors don't appear correctly:
 1. Verify true color support: `:echo has('termguicolors')` should return `1`
-2. Check colorscheme is loaded: `:colorscheme` should show `everblush`
+2. Check colorscheme is loaded: `:colorscheme` should show `codescope`
 3. Ensure Treesitter parsers are installed: `:TSUpdate`
 
 ## Credits

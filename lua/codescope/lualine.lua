@@ -1,5 +1,5 @@
 local M = {}
-local palette = require("everblush.palette").colors
+local palette = require("codescope.palette").colors
 
 M.theme = {
   normal = {
