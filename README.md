@@ -1,4 +1,4 @@
-# codescope.nvim 🌌
+# codescope.nvim
 
 A soothing dark Neovim colorscheme for long coding sessions
 
