@@ -1,6 +1,6 @@
 # codescope.nvim
 
-A soothing dark Neovim colorscheme for long coding sessions
+Dark color scheme for **Long Coding Sessions**
 
 ![codescope Screenshot](./screenshot.png)
 
